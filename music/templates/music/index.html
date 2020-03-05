@@ -1,0 +1,83 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'music/index.css' %}">
+<!DOCTYPE html>
+<html>
+<head>
+<title> STUFV </title>
+</head>
+<body>
+<div class = "header">
+
+<! HEADER !>
+
+<img src = "title.jpg" height = "140">
+
+</div>
+
+<! BODY !><br> <br> <br>
+
+<div class = "middle">
+<img src = "welcome.jpg" class = "image"><br><br>
+<p> {% if album_objects %}
+    <p> hello </p>
+	{% endif %}
+	<br>
+    text text text text text text text<br>
+	text text text text text text<br>
+	text text text text</p>
+	<button class = "register" name = "welcome_btn1" value = "SIGN-UP" onclick = "window.location.href = 'form.html';"> SIGN-UP </button>
+
+	<br> <br> <br>
+
+<img src = "welcome.jpg" class = "image"><br><br>
+<p> text text text text text text text<br>
+    text text text text text text text<br>
+	text text text text text text<br>
+	text text text text</p>
+	<button class = "register" name = "welcome_btn2" value = "SIGN-UP" onclick = "window.location.href = 'form.html';"> REGISTER </button>
+
+	<br> <br> <br>
+
+<img src = "welcome.jpg" class = "image"><br><br>
+<p> text text text text text text text<br>
+    text text text text text text text<br>
+	text text text text text text<br>
+	text text text text</p>
+
+	<br> <br> <br>
+
+<img src = "welcome.jpg" class = "image"><br><br>
+<p> text text text text text text text<br>
+    text text text text text text text<br>
+	text text text text text text<br>
+	text text text text</p>
+
+	<br> <br> <br>
+
+</div>
+
+<!RIGHT PANEL !>
+
+<div class = "right">
+<h1> Sign-In </h1> <br>
+<form action = "main.html" method = "get">
+  <input class = "textfield" type = "text" name = "welcome_t1" placeholder= "Username" /> <br><br>
+  <input class = "textfield" type = "password" name = "welcome_t2" placeholder= "Password" /> <br><br><br><br><br>
+  <input id = "s1" type = "submit" name = "welcome_s1" value = "SUBMIT"/>
+</form>
+</div>
+
+<!  FOOTER  !>
+
+<div class = "bottom">
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
